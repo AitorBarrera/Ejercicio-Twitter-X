@@ -155,10 +155,11 @@ button{
     .logoX{
         text-align: center;
         margin: 0 auto;
+        width: 70%;
     }
 
     .logoX img{
-        width: 270px;
+        width: 70%;
     }
 
     .right h1{
