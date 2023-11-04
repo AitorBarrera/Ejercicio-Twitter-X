@@ -147,6 +147,16 @@ button{
 
 
 @media screen and (max-width: 1000px) {
+    .container{
+        display: block;
+        text-align: center;
+    }
+
+    .logoX{
+        text-align: center;
+        margin: 0 auto;
+    }
+
     .logoX img{
         width: 300px;
     }
