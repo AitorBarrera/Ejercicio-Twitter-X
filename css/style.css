@@ -146,13 +146,20 @@ button{
 }
 
 
-@media screen and (max-width: 900px) {
-    .logoX{
-        width: 200px;
+@media screen and (max-width: 1000px) {
+    .logoX img{
+        width: 300px;
     }
 
-    .logoX img{
-        width: 200px;
+    .right h1{
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+
+    .right h2{
+        font-size: 30px;
+        margin-bottom: 0;
     }
 
     .right{
@@ -165,5 +172,9 @@ button{
 
     .container{
         flex-direction: column;
+    }
+
+    .botones{
+        width: 80%;
     }
 }
